@@ -53,18 +53,12 @@ include './controller/koneksi.php';
                     <li class="nav-item">
                         <a href="#home" class="navbar-link" data-nav-link>Home</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="#about" class="navbar-link" data-nav-link>About Us</a>
-                    </li> -->
                     <li class="nav-item">
                         <a href="#food-menu" class="navbar-link" data-nav-link>Menu</a>
                     </li>
                     <li class="nav-item">
                         <a href="#ulasan" class="navbar-link" data-nav-link>Ulasan</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-                    </li> -->
                     <li class="nav-item">
                         <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
                     </li>
@@ -74,17 +68,11 @@ include './controller/koneksi.php';
                 </ul>
             </nav>
 
-            <div class="header-btn-group" style="">
-                <!-- <button class="search-btn" aria-label="Search" data-search-btn>
-                <ion-icon name="search-outline"></ion-icon>
-                </button> -->
+            <div class="header-btn-group">
                 <button class="btn btn-hover" onclick="window.location.href='#form-order'">Order Now</button>
             </div>
 
             <div class="header-btn-group" style="display: flex; align-items: center; gap: 20px;">
-                <!-- <button class="search-btn" aria-label="Search" data-search-btn>
-                <ion-icon name="search-outline"></ion-icon>
-                </button> -->
                 <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
                     <span class="line top"></span>
                     <span class="line middle"></span>
@@ -111,7 +99,7 @@ include './controller/koneksi.php';
         <article>
             <!-- #HERO -->
             <section class="hero" id="home"
-                style="background-image: url('./assets/images/hero-bg2.png'); height: 100vh; padding: 50px;">
+                style="background-image: url('./assets/images/hero-bg.png'); height: 100vh; padding: 50px;">
                 <div class="container welcome" style="display: flex; flex-direction: row;">
                     <div class="hero-content">
                         <p class="hero-subtitle">Home Made</p>
@@ -119,13 +107,10 @@ include './controller/koneksi.php';
                         <p class="hero-text">Quality is Our Priority.</p>
                         <button class="btn" onclick="window.location.href='#food-menu'">Menu</button>
                     </div>
-                    <!-- <figure class="hero-banner"> -->
                     <center>
-                        <!-- <img src="./assets/images/hero-banner-bg.png" width="200" height="200" alt="" aria-hidden="true" class="hero-img-bg"> -->
                         <img src="./assets/images/logoDapurTala/logoDapurTalaRounded-V2.png" width="200" height="200"
                             loading="lazy" alt="Burger" class="" style="margin-left: 100px;">
                     </center>
-                    <!-- </figure> -->
                 </div>
             </section>
 
@@ -143,7 +128,6 @@ include './controller/koneksi.php';
                                 <p class="card-text">
                                     Varian: Cumi Cabe Ijo
                                 </p>
-                                <!-- <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="Ricebowl D'Tala" class="w-100 card-banner"> -->
                                 <div class="card-icon">
                                     <img src="./assets/images/rb-cumi-cabe-ijo.jpg" alt="" width="300px"
                                         style="border-radius: 20px">
@@ -157,7 +141,6 @@ include './controller/koneksi.php';
                                 <p class="card-text">
                                     Varian: Ayam Teriyaki
                                 </p>
-                                <!-- <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="Ricebowl D'Tala" class="w-100 card-banner"> -->
                                 <div class="card-icon">
                                     <img src="./assets/images/rb-ayam-teriyaki.jpg" alt="" width="300px"
                                         style="border-radius: 20px">
@@ -168,47 +151,6 @@ include './controller/koneksi.php';
                 </div>
             </section>
 
-            <!-- #ABOUT -->
-            <!-- <section class="section section-divider gray about" id="about">
-                <div class="container">
-                    <div class="about-banner">
-                        <img src="./assets/images/about-banner.png" width="509" height="459" loading="lazy" alt="Burger with Drinks" class="w-100 about-img">
-                        <img src="./assets/images/sale-shape-red.png" width="216" height="226" alt="get up to 50% off now" class="abs-img scale-up-anim">
-                    </div>
-
-                    <div class="about-content">
-                        <h2 class="h2 section-title">
-                            Caferio, Burgers, and Best Pizzas
-                            <span class="span">in Town!</span>
-                        </h2>
-                        <p class="section-text">
-                            The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.
-                        </p>
-
-                        <ul class="about-list">
-                            <li class="about-item">
-                                <ion-icon name="checkmark-outline"></ion-icon>
-                                <span class="span">Delicious & Healthy Foods</span>
-                            </li>
-                            <li class="about-item">
-                                <ion-icon name="checkmark-outline"></ion-icon>
-                                <span class="span">Spacific Family And Kids Zone</span>
-                            </li>
-                            <li class="about-item">
-                                <ion-icon name="checkmark-outline"></ion-icon>
-                                <span class="span">Music & Other Facilities</span>
-                            </li>
-                            <li class="about-item">
-                                <ion-icon name="checkmark-outline"></ion-icon>
-                                <span class="span">Fastest Food Home Delivery</span>
-                            </li>
-                        </ul>
-
-                        <button class="btn btn-hover">Order Now</button>
-                    </div>
-                </div>
-            </section> -->
-
             <!-- #FOOD MENU -->
             <section class="section food-menu" id="food-menu">
                 <div class="container">
@@ -216,27 +158,6 @@ include './controller/koneksi.php';
                     <h2 class="h2 section-title" style="margin-bottom: 20px;">
                         Our <span class="span" style="color: #008F6C">Menu</span>
                     </h2>
-                    <!-- <p class="section-text">
-                        Food is any substance consumed to provide nutritional support for an organism.
-                    </p> -->
-
-                    <!-- <ul class="fiter-list">
-                        <li>
-                            <button class="filter-btn  active">All</button>
-                        </li>
-                        <li>
-                            <button class="filter-btn">Pizza</button>
-                        </li>
-                        <li>
-                            <button class="filter-btn">Burger</button>
-                        </li>
-                        <li>
-                            <button class="filter-btn">Drinks</button>
-                        </li>
-                        <li>
-                            <button class="filter-btn">Sandwich</button>
-                        </li>
-                    </ul> -->
 
                     <ul class="food-menu-list">
                         <!-- memunculkan output result ke variable result-->
@@ -289,26 +210,6 @@ include './controller/koneksi.php';
                     </ul>
                 </div>
             </section>
-
-            <!-- Call-To-Action (CTA) -->
-            <!-- <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
-                <div class="container">
-                    <div class="cta-content">
-                        <h2 class="h2 section-title">
-                            The Foodie Have Excellent Of
-                            <span class="span">Quality Burgers!</span>
-                        </h2>
-                        <p class="section-text">
-                            The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.
-                        </p>
-                        <button class="btn btn-hover">Order Now</button>
-                    </div>
-                    <figure class="cta-banner">
-                        <img src="./assets/images/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger" class="w-100 cta-img">
-                        <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy" alt="get up to 50% off now" class="abs-img scale-up-anim">
-                    </figure>
-                </div>
-            </section> -->
 
             <!-- #DELIVERY -->
             <section class="section section-divider gray delivery">
@@ -451,167 +352,6 @@ include './controller/koneksi.php';
                     </center>
                 </div>
             </section>
-
-            <!-- #BANNER -->
-            <!-- <section class="section section-divider gray banner">
-                <div class="container">
-                    <ul class="banner-list">
-                        <li class="banner-item banner-lg">
-                            <div class="banner-card">
-                                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy" alt="Discount For Delicious Tasty Burgers!" class="banner-img">
-                                <div class="banner-item-content">
-                                    <p class="banner-subtitle">50% Off Now!</p>
-                                    <h3 class="banner-title">Discount For Delicious Tasty Burgers!</h3>
-                                    <p class="banner-text">Sale off 50% only this week</p>
-                                    <button class="btn">Order Now</button>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="banner-item banner-sm">
-                            <div class="banner-card">
-                                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza" class="banner-img">
-                                <div class="banner-item-content">
-                                    <h3 class="banner-title">Delicious Pizza</h3>
-                                    <p class="banner-text">50% off Now</p>
-                                    <button class="btn">Order Now</button>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="banner-item banner-sm">
-                            <div class="banner-card">
-                                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers" class="banner-img">
-                                <div class="banner-item-content">
-                                    <h3 class="banner-title">American Burgers</h3>
-                                    <p class="banner-text">50% off Now</p>
-                                    <button class="btn">Order Now</button>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="banner-item banner-md">
-                            <div class="banner-card">
-                                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza" class="banner-img">
-                                <div class="banner-item-content">
-                                    <h3 class="banner-title">Tasty Buzzed Pizza</h3>
-                                    <p class="banner-text">Sale off 50% only this week</p>
-                                    <button class="btn">Order Now</button>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section> -->
-
-            <!-- #BLOG -->
-            <!-- <section class="section section-divider white blog" id="blog"> 
-                    <div class="container">
-                        <p class="section-subtitle">Latest Blog Posts</p>
-                        <h2 class="h2 section-title">
-                            This Is All About <span class="span">Foods</span>
-                        </h2>
-                        <p class="section-text">
-                            Food is any substance consumed to provide nutritional support for an organism.
-                        </p>
-
-                        <ul class="blog-list">
-                            <li>
-                                <div class="blog-card">
-                                    <div class="card-banner">
-                                        <img src="./assets/images/blog-1.jpg" width="600" height="390" loading="lazy" alt="What Do You Think About Cheese Pizza Recipes?" class="w-100">
-                                        <div class="badge">Pizza</div>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="card-meta-wrapper">
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="calendar-outline"></ion-icon>
-                                                <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
-                                            </a>
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="person-outline"></ion-icon>
-                                                <p class="meta-info">Jonathan Smith</p>
-                                            </a>
-                                        </div>
-                                        <h3 class="h3">
-                                            <a href="#" class="card-title">What Do You Think About Cheese Pizza Recipes?</a>
-                                        </h3>
-                                        <p class="card-text">
-                                            Financial experts support or help you to to find out which way you can raise your funds more...
-                                        </p>
-                                        <a href="#" class="btn-link">
-                                            <span>Read More</span>
-                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="blog-card">
-                                    <div class="card-banner">
-                                        <img src="./assets/images/blog-2.jpg" width="600" height="390" loading="lazy" alt="Making Chicken Strips With New Delicious Ingridents." class="w-100">
-                                        <div class="badge">Burger</div>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="card-meta-wrapper">
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="calendar-outline"></ion-icon>
-                                                <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
-                                            </a>
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="person-outline"></ion-icon>
-                                                <p class="meta-info">Jonathan Smith</p>
-                                            </a>
-                                        </div>
-                                        <h3 class="h3">
-                                            <a href="#" class="card-title">Making Chicken Strips With New Delicious Ingridents.</a>
-                                        </h3>
-                                        <p class="card-text">
-                                            Financial experts support or help you to to find out which way you can raise your funds more...
-                                        </p>
-                                        <a href="#" class="btn-link">
-                                            <span>Read More</span>
-                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="blog-card">
-                                    <div class="card-banner">
-                                        <img src="./assets/images/blog-3.jpg" width="600" height="390" loading="lazy" alt="Innovative Hot Chessyraw Pasta Make Creator Fact." class="w-100">
-                                        <div class="badge">Chicken</div>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="card-meta-wrapper">
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="calendar-outline"></ion-icon>
-                                                <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
-                                            </a>
-                                            <a href="#" class="card-meta-link">
-                                                <ion-icon name="person-outline"></ion-icon>
-                                                <p class="meta-info">Jonathan Smith</p>
-                                            </a>
-                                        </div>
-                                        <h3 class="h3">
-                                            <a href="#" class="card-title">Innovative Hot Chessyraw Pasta Make Creator Fact.</a>
-                                        </h3>
-                                        <p class="card-text">
-                                            Financial experts support or help you to to find out which way you can raise your funds more...
-                                        </p>
-                                        <a href="#" class="btn-link">
-                                            <span>Read More</span>
-                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section> -->
-
         </article>
     </main>
 
@@ -625,16 +365,6 @@ include './controller/koneksi.php';
                         Temukan kami di media sosial berikut.
                     </p>
                     <ul class="social-list">
-                        <!-- <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li> -->
                         <li>
                             <a href="#" class="social-link">
                                 <ion-icon name="logo-instagram"></ion-icon>
@@ -655,9 +385,6 @@ include './controller/koneksi.php';
                     <li>
                         <p class="footer-list-item">0823-1128-9987</p>
                     </li>
-                    <!-- <li>
-                        <p class="footer-list-item">Info@YourGmail24.com</p>
-                    </li> -->
                     <li>
                         <address class="footer-list-item">Jl. Cipinang Muara I, Jakarta Timur</address>
                     </li>
@@ -670,12 +397,6 @@ include './controller/koneksi.php';
                     <li>
                         <p class="footer-list-item">Everyday (09:00 WIB - 19:00 WIB)</p>
                     </li>
-                    <!-- <li>
-                        <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
-                    </li>
-                    <li>
-                        <p class="footer-list-item">Saturday: 10:00-16:00</p>
-                    </li> -->
                 </ul>
 
                 <form action="" class="footer-form" id="form-order">
@@ -686,16 +407,6 @@ include './controller/koneksi.php';
                         <input type="text" name="email_address" required placeholder="Kontak Kamu (Email/No. HP)"
                             aria-label="Email" class="input-field" id="inputContact">
                     </div>
-                    <!-- <div class="input-wrapper">
-                        <select name="total_person" aria-label="Total person" class="input-field">
-                        <option value="person">Person</option>
-                        <option value="2 person">2 Person</option>
-                        <option value="3 person">3 Person</option>
-                        <option value="4 person">4 Person</option>
-                        <option value="5 person">5 Person</option>
-                        </select>
-                        <input type="date" name="booking_date" aria-label="Reservation date" class="input-field">
-                    </div> -->
                     <textarea name="message" required placeholder="Pesanan Kamu" aria-label="Message"
                         class="input-field" id="inputPesanan"></textarea>
                     <a style="background-color: #008F6C; color: var(--white); font-family: var(--ff-rubik); font-size: var(--fs-4); font-weight: var(--fw-500); padding: 10px;"

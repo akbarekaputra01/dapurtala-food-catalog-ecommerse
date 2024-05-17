@@ -487,6 +487,10 @@ body.active {
 
 .nav-toggle-btn.active .line.bottom {
     transform: translate(-1px, -3px) rotate(45deg);
+    -webkit-transform: translate(-1px, -3px) rotate(45deg);
+    -moz-transform: translate(-1px, -3px) rotate(45deg);
+    -ms-transform: translate(-1px, -3px) rotate(45deg);
+    -o-transform: translate(-1px, -3px) rotate(45deg);
 }
 
 .navbar {
