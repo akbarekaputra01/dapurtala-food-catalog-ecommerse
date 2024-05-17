@@ -16,7 +16,7 @@ include './controller/koneksi.php';
     <link rel="shortcut icon" href="./assets/images/logoDapurTala/logoDapurTalaRounded-V2.png" type="image/svg+xml">
 
     <!-- custom css link -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -436,7 +436,7 @@ include './controller/koneksi.php';
     </a>
 
     <!-- custom js link -->
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
 
     <!-- ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
