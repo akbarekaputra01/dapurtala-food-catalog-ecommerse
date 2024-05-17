@@ -34,10 +34,10 @@ include './controller/koneksi.php';
     <link rel="stylesheet" href="./assets/vendor/fontawesome-free-6.4.0-web/css/all.min.css">
 
     <style>
-    .navbar-link:is(:hover,
-        :focus) {
-        color: var(--dark-orange);
-    }
+        .navbar-link:is(:hover,
+            :focus) {
+            color: var(--dark-orange);
+        }
     </style>
 </head>
 
@@ -46,7 +46,7 @@ include './controller/koneksi.php';
     <header class="header" data-header>
         <div class="container">
             <h1>
-                <a href="#" class="logo">@dapurtala<span class="span">.</span></a>
+                <a href="#" class="logo">@dapurtala33<span class="span">.</span></a>
             </h1>
             <nav class="navbar" data-navbar style="height: 235px;">
                 <ul class="navbar-list">
@@ -732,31 +732,31 @@ include './controller/koneksi.php';
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script>
-    const submit = () => {
-        let inputName = document.getElementById('inputName').value;
-        let inputContact = document.getElementById('inputContact').value;
-        let inputPesanan = document.getElementById('inputPesanan').value;
+        const submit = () => {
+            let inputName = document.getElementById('inputName').value;
+            let inputContact = document.getElementById('inputContact').value;
+            let inputPesanan = document.getElementById('inputPesanan').value;
 
-        let message = `Dari ${inputName} (${inputContact}). Pesanan: ${inputPesanan}`;
-        let whatsappUrl = `https://wa.me/6282311289987?text=${message}`;
+            let message = `Dari ${inputName} (${inputContact}). Pesanan: ${inputPesanan}`;
+            let whatsappUrl = `https://wa.me/6282311289987?text=${message}`;
 
-        if (inputName == "" || inputContact == "" || inputPesanan == "") {
-            alert("harap lengkapi form")
-        } else {
-            window.location.href = whatsappUrl;
+            if (inputName == "" || inputContact == "" || inputPesanan == "") {
+                alert("harap lengkapi form")
+            } else {
+                window.location.href = whatsappUrl;
+            }
         }
-    }
     </script>
 
     <!-- JS -->
     <script>
-    // remove watermark 000webhost
-    document.addEventListener('DOMContentLoaded', () => {
-        var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
-        if (disclaimer) {
-            disclaimer.remove();
-        }
-    });
+        // remove watermark 000webhost
+        document.addEventListener('DOMContentLoaded', () => {
+            var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+            if (disclaimer) {
+                disclaimer.remove();
+            }
+        });
     </script>
 </body>
 
